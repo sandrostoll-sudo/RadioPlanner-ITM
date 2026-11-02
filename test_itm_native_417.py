@@ -28,7 +28,7 @@ int rp_itm_point_to_point(const double *h, int n, double s, double tx,
         self.assertTrue((header_dir / 'itm_bridge.h').is_file(),
                         f'Missing native bridge header: {header_dir / "itm_bridge.h"}')
 
-        with tempfile.TemporaryDirectory() as tmp:
+        with tempfile.TemporaryDirectory(ignore_cleanup_errors=(os.name == 'nt')) as tmp:
             root = Path(tmp)
             stub_c = root / 'stub.c'
             stub_c.write_text(source, encoding='utf-8')
