@@ -1,7 +1,7 @@
 /* RadioPlanner wrapper for NTIA ITM source, integrated 2026-11-02.
  * NTIA original source is unchanged; see upstream LICENSE.md.
  */
-#include "../itm_bridge.h"
+#include "itm_bridge.h"
 #include "itm.h"
 #include <vector>
 #include <cmath>
