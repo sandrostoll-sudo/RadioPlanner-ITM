@@ -1,0 +1,1 @@
+RadioPlanner 3.3 Beta: P.530- und Masthoehen-Ergebnisse werden bei PDF-Erstellung als versionsgebundener Cache gespeichert und in .rplan exportiert/importiert. Geaenderte Funk- und Standortparameter invalidieren den Cache. Die P.530-Berechnung wird im PDF weiterhin aktualisiert, falls itur verfuegbar ist.

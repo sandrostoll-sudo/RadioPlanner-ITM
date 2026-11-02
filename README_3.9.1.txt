@@ -1,0 +1,1 @@
+RadioPlanner 3.9.1: Open-Meteo HTTP-429-Behandlung mit begrenztem Retry, Pausen und dauerhaftem Teil-Cache. Geländestützpunkte auf 72 Radiale x 33 Punkte reduziert, um den Dienst zu entlasten. Rechenraster unverändert 61/101/121. Keine Änderung an den Funkmodellen.\n

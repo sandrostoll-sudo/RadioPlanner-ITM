@@ -1,0 +1,1 @@
+RadioPlanner 3.2 Beta: PDF-Einzel- und Gesamtbericht mit bei Export neu berechneter ITU-R P.530 Regenverfügbarkeit und Masthöhenalternativen aus dem gespeicherten Geländeprofil. itur erforderlich. Bestehende Oberfläche unverändert.

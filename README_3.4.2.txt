@@ -1,0 +1,1 @@
+RadioPlanner 3.4.2: DMR-Repeater und gespeicherte Hand-/Fahrzeugfunkgeräte als Kartensymbole. Endgeräte über DMR-Dialog speichern, anschließend Projekt als .rplan speichern. Bei Import älterer .rplan-Dateien werden fehlende dmr_devices als leere Liste behandelt. FSPL bleibt Vorabschätzung.
