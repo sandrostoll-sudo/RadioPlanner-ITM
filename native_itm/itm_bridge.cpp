@@ -31,7 +31,9 @@ extern "C" int rp_itm_point_to_point(const double *heights_m, int count,
  int status = ITM_P2P_TLS(tx_height_m, rx_height_m, pfl.data(), climate,
    refractivity_n, frequency_mhz, polarization, permittivity, conductivity_s_m,
    1, time_percent, location_percent, confidence_percent, &loss, &warnings);
- if (status != 0) return status;
+ if (status != 0 && status != 1) return status;
+ // NTIA ITM: status 1 means SUCCESS_WITH_WARNINGS.
+ // Accept it only if the calculated path loss is finite and nonnegative.
  if (!std::isfinite(loss) || loss < 0) return 1003;
  *loss_db = loss;
  return 0;
